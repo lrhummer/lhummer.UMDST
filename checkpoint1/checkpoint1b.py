@@ -103,7 +103,7 @@ def main():
     
     # now that the data is all clean, save your output to the `data` folder as 'starbucks_clean.csv'
     # you will use this file in checkpoint 2
-    
+    df.to_csv('/Users/lucahummer/Deaktop/Anaconda_python/tutorial/mdst_tutorials/data/Starbucks_clean.csv')
     
 
 if __name__ == "__main__":
